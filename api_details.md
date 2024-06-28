@@ -76,7 +76,7 @@ We will use DynamoDB tables to manage different entities within the platform. Ea
 ##### **3.1. User Management**
 
 1. **Register User**
-   - **Endpoint**: `POST /users/register`
+   - **Endpoint**: `POST /users/create-account`
    - **Description**: Register a new user (rider or club owner).
    - **Request Body**: Includes email, password, userType, and profileDetails.
    - **Response**: Includes userID, riderNumber (if Rider), and a message.
@@ -129,7 +129,7 @@ We will use DynamoDB tables to manage different entities within the platform. Ea
    - **Response**: Includes a list of rides with rideID, clubID, rideName, rideDate, distance, route, registrationFee, registrationDeadline, maxParticipants, status, participants, and homologationNumber.
 
 4. **Register for a Ride**
-   - **Endpoint**: `POST /rides/{rideID}/register`
+   - **Endpoint**: `POST /rides/{rideID}/create-account`
    - **Description**: Register a rider for a specific ride.
    - **Request Body**: Includes riderID.
    - **Response**: Includes a message.
