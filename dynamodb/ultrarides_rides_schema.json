@@ -1,0 +1,64 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "ClubID",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "RideID",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "ultrarides_rides",
+        "KeySchema": [
+            {
+                "AttributeName": "RideID",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "ClubID",
+                "KeyType": "RANGE"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2024-06-27T12:39:36.853000+05:30",
+        "ProvisionedThroughput": {
+            "LastDecreaseDateTime": "2024-06-27T12:41:11.942000+05:30",
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        },
+        "TableSizeBytes": 840,
+        "ItemCount": 3,
+        "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_rides",
+        "TableId": "a243042c-a5fe-440e-850c-f34d0b28e2ed",
+        "GlobalSecondaryIndexes": [
+            {
+                "IndexName": "RideID-index",
+                "KeySchema": [
+                    {
+                        "AttributeName": "RideID",
+                        "KeyType": "HASH"
+                    }
+                ],
+                "Projection": {
+                    "ProjectionType": "ALL"
+                },
+                "IndexStatus": "ACTIVE",
+                "ProvisionedThroughput": {
+                    "NumberOfDecreasesToday": 0,
+                    "ReadCapacityUnits": 1,
+                    "WriteCapacityUnits": 1
+                },
+                "IndexSizeBytes": 840,
+                "ItemCount": 3,
+                "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_rides/index/RideID-index"
+            }
+        ],
+        "TableClassSummary": {
+            "TableClass": "STANDARD"
+        },
+        "DeletionProtectionEnabled": false
+    }
+}

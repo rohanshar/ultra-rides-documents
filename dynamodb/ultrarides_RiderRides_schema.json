@@ -1,0 +1,64 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "RideID",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "RiderID",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "ultrarides_RiderRides",
+        "KeySchema": [
+            {
+                "AttributeName": "RiderID",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "RideID",
+                "KeyType": "RANGE"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2024-06-27T22:40:45.635000+05:30",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        },
+        "TableSizeBytes": 110,
+        "ItemCount": 1,
+        "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_RiderRides",
+        "TableId": "b9039230-38b7-43bd-8354-578fd0092b3f",
+        "GlobalSecondaryIndexes": [
+            {
+                "IndexName": "RideIDIndex",
+                "KeySchema": [
+                    {
+                        "AttributeName": "RideID",
+                        "KeyType": "HASH"
+                    },
+                    {
+                        "AttributeName": "RiderID",
+                        "KeyType": "RANGE"
+                    }
+                ],
+                "Projection": {
+                    "ProjectionType": "ALL"
+                },
+                "IndexStatus": "ACTIVE",
+                "ProvisionedThroughput": {
+                    "NumberOfDecreasesToday": 0,
+                    "ReadCapacityUnits": 1,
+                    "WriteCapacityUnits": 1
+                },
+                "IndexSizeBytes": 110,
+                "ItemCount": 1,
+                "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_RiderRides/index/RideIDIndex"
+            }
+        ],
+        "DeletionProtectionEnabled": false
+    }
+}
