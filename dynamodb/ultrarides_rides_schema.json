@@ -8,6 +8,14 @@
             {
                 "AttributeName": "RideID",
                 "AttributeType": "S"
+            },
+            {
+                "AttributeName": "rideCategory",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "startDateTime",
+                "AttributeType": "S"
             }
         ],
         "TableName": "ultrarides_rides",
@@ -29,11 +37,36 @@
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
         },
-        "TableSizeBytes": 840,
-        "ItemCount": 3,
+        "TableSizeBytes": 1409,
+        "ItemCount": 1,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_rides",
         "TableId": "a243042c-a5fe-440e-850c-f34d0b28e2ed",
         "GlobalSecondaryIndexes": [
+            {
+                "IndexName": "StartDateTimeIndex",
+                "KeySchema": [
+                    {
+                        "AttributeName": "rideCategory",
+                        "KeyType": "HASH"
+                    },
+                    {
+                        "AttributeName": "startDateTime",
+                        "KeyType": "RANGE"
+                    }
+                ],
+                "Projection": {
+                    "ProjectionType": "ALL"
+                },
+                "IndexStatus": "ACTIVE",
+                "ProvisionedThroughput": {
+                    "NumberOfDecreasesToday": 0,
+                    "ReadCapacityUnits": 1,
+                    "WriteCapacityUnits": 1
+                },
+                "IndexSizeBytes": 1409,
+                "ItemCount": 1,
+                "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_rides/index/StartDateTimeIndex"
+            },
             {
                 "IndexName": "RideID-index",
                 "KeySchema": [
@@ -51,8 +84,8 @@
                     "ReadCapacityUnits": 1,
                     "WriteCapacityUnits": 1
                 },
-                "IndexSizeBytes": 840,
-                "ItemCount": 3,
+                "IndexSizeBytes": 1409,
+                "ItemCount": 1,
                 "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_rides/index/RideID-index"
             }
         ],

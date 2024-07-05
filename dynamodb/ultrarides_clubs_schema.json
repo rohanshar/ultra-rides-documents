@@ -28,21 +28,17 @@
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
         },
-        "TableSizeBytes": 716,
-        "ItemCount": 7,
+        "TableSizeBytes": 420,
+        "ItemCount": 2,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_clubs",
         "TableId": "6d877495-1efb-42b2-8f98-58daef6e1db1",
         "GlobalSecondaryIndexes": [
             {
-                "IndexName": "OwnerUserId-index",
+                "IndexName": "ClubID-index",
                 "KeySchema": [
                     {
-                        "AttributeName": "OwnerUserId",
-                        "KeyType": "HASH"
-                    },
-                    {
                         "AttributeName": "ClubID",
-                        "KeyType": "RANGE"
+                        "KeyType": "HASH"
                     }
                 ],
                 "Projection": {
@@ -54,9 +50,9 @@
                     "ReadCapacityUnits": 1,
                     "WriteCapacityUnits": 1
                 },
-                "IndexSizeBytes": 716,
-                "ItemCount": 7,
-                "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_clubs/index/OwnerUserId-index"
+                "IndexSizeBytes": 420,
+                "ItemCount": 2,
+                "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_clubs/index/ClubID-index"
             }
         ],
         "DeletionProtectionEnabled": false

@@ -1,7 +1,10 @@
 {
     "TableNames": [
+        "ultrarides_GeotagData",
         "ultrarides_RiderRides",
+        "ultrarides_RiderRidesControls",
         "ultrarides_clubs",
-        "ultrarides_rides"
+        "ultrarides_rides",
+        "ultrarides_userIds"
     ]
 }

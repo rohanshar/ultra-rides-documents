@@ -6,42 +6,50 @@
                 "AttributeType": "S"
             },
             {
+                "AttributeName": "RideID#ControlPointNumber",
+                "AttributeType": "S"
+            },
+            {
                 "AttributeName": "RiderID",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "RiderID#ControlPointNumber",
                 "AttributeType": "S"
             }
         ],
-        "TableName": "ultrarides_RiderRides",
+        "TableName": "ultrarides_RiderRidesControls",
         "KeySchema": [
             {
-                "AttributeName": "RiderID",
+                "AttributeName": "RideID",
                 "KeyType": "HASH"
             },
             {
-                "AttributeName": "RideID",
+                "AttributeName": "RiderID#ControlPointNumber",
                 "KeyType": "RANGE"
             }
         ],
         "TableStatus": "ACTIVE",
-        "CreationDateTime": "2024-06-27T22:40:45.635000+05:30",
+        "CreationDateTime": "2024-07-05T15:31:21.893000+05:30",
         "ProvisionedThroughput": {
             "NumberOfDecreasesToday": 0,
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
         },
-        "TableSizeBytes": 782,
-        "ItemCount": 4,
-        "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_RiderRides",
-        "TableId": "b9039230-38b7-43bd-8354-578fd0092b3f",
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_RiderRidesControls",
+        "TableId": "00dc4f3e-c5c3-49c1-aa83-ee9761f7968d",
         "GlobalSecondaryIndexes": [
             {
-                "IndexName": "RideIDIndex",
+                "IndexName": "ultrarides_RiderCheckinsIndex",
                 "KeySchema": [
                     {
-                        "AttributeName": "RideID",
+                        "AttributeName": "RiderID",
                         "KeyType": "HASH"
                     },
                     {
-                        "AttributeName": "RiderID",
+                        "AttributeName": "RideID#ControlPointNumber",
                         "KeyType": "RANGE"
                     }
                 ],
@@ -54,9 +62,9 @@
                     "ReadCapacityUnits": 1,
                     "WriteCapacityUnits": 1
                 },
-                "IndexSizeBytes": 782,
-                "ItemCount": 4,
-                "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_RiderRides/index/RideIDIndex"
+                "IndexSizeBytes": 0,
+                "ItemCount": 0,
+                "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_RiderRidesControls/index/ultrarides_RiderCheckinsIndex"
             }
         ],
         "DeletionProtectionEnabled": false
