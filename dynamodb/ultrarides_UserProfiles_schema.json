@@ -1,0 +1,29 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "URN",
+                "AttributeType": "N"
+            }
+        ],
+        "TableName": "ultrarides_UserProfiles",
+        "KeySchema": [
+            {
+                "AttributeName": "URN",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2024-07-08T07:51:03.109000+05:30",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        },
+        "TableSizeBytes": 199,
+        "ItemCount": 1,
+        "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_UserProfiles",
+        "TableId": "ba51dd05-5d71-4e18-aabd-c555c1af0a17",
+        "DeletionProtectionEnabled": false
+    }
+}

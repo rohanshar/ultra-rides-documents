@@ -3,6 +3,7 @@
         "ultrarides_GeotagData",
         "ultrarides_RiderRides",
         "ultrarides_RiderRidesControls",
+        "ultrarides_UserProfiles",
         "ultrarides_clubs",
         "ultrarides_rides",
         "ultrarides_userIds"

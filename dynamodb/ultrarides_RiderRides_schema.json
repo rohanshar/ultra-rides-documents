@@ -28,8 +28,8 @@
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
         },
-        "TableSizeBytes": 13007,
-        "ItemCount": 63,
+        "TableSizeBytes": 16862,
+        "ItemCount": 84,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_RiderRides",
         "TableId": "b9039230-38b7-43bd-8354-578fd0092b3f",
         "GlobalSecondaryIndexes": [
@@ -54,8 +54,8 @@
                     "ReadCapacityUnits": 1,
                     "WriteCapacityUnits": 1
                 },
-                "IndexSizeBytes": 13007,
-                "ItemCount": 63,
+                "IndexSizeBytes": 16862,
+                "ItemCount": 84,
                 "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_RiderRides/index/RideIDIndex"
             }
         ],
