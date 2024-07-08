@@ -1,0 +1,136 @@
+{
+    "Items": [
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "09xm00i",
+            "RouteKey": "GET /clubs",
+            "Target": "integrations/zx5syx8"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "cuzqvh3",
+            "RouteKey": "GET /clubs/{clubID}",
+            "Target": "integrations/zx5syx8"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "diux4jr",
+            "RouteKey": "POST /rides/{rideId}/check-in",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "eyzyt29",
+            "RouteKey": "POST /rides/{rideId}/unregister",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "NONE",
+            "RouteId": "gc479qr",
+            "RouteKey": "GET /rides/{rideId}",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "iw8hdlg",
+            "RouteKey": "PATCH /users",
+            "Target": "integrations/aqgrjao"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "jve615o",
+            "RouteKey": "POST /rides/{rideId}/waiver",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "kjaaob0",
+            "RouteKey": "GET /riders/rides",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "lfqgn1t",
+            "RouteKey": "PUT /rides/{rideId}",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "NONE",
+            "RouteId": "mw34zym",
+            "RouteKey": "POST /geotag"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "NONE",
+            "RouteId": "oazkb94",
+            "RouteKey": "GET /rides",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "p3law6u",
+            "RouteKey": "PATCH /rides/{rideId}",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "u7785a8",
+            "RouteKey": "POST /clubs",
+            "Target": "integrations/zx5syx8"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "wmrofjl",
+            "RouteKey": "GET /clubs/myclub/rides",
+            "Target": "integrations/zx5syx8"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "y3etgir",
+            "RouteKey": "POST /rides/{rideId}/register",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "ymefw3a",
+            "RouteKey": "GET /rides/{rideId}/check-in",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "z3q5xlk",
+            "RouteKey": "POST /clubs/{clubID}/rides",
+            "Target": "integrations/fwemuws"
+        }
+    ]
+}

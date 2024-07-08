@@ -20,7 +20,7 @@
             "ReadCapacityUnits": 0,
             "WriteCapacityUnits": 0
         },
-        "TableSizeBytes": 24,
+        "TableSizeBytes": 25,
         "ItemCount": 1,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_userIds",
         "TableId": "3670a0ae-9dbe-487e-a488-c55d3b2fdfac",
