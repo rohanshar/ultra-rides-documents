@@ -4,6 +4,9 @@
 - **Route Key**: GET /clubs
   - **Target**: integrations/zx5syx8
 
+- **Route Key**: GET /users/{urn}/profile
+  - **Target**: integrations/6ujxw3l
+
 - **Route Key**: GET /clubs/{clubID}
   - **Target**: integrations/zx5syx8
 

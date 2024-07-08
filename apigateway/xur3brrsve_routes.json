@@ -10,6 +10,13 @@
         },
         {
             "ApiKeyRequired": false,
+            "AuthorizationType": "NONE",
+            "RouteId": "5legz06",
+            "RouteKey": "GET /users/{urn}/profile",
+            "Target": "integrations/6ujxw3l"
+        },
+        {
+            "ApiKeyRequired": false,
             "AuthorizationType": "JWT",
             "AuthorizerId": "7hy7at",
             "RouteId": "cuzqvh3",
