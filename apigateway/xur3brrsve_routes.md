@@ -5,7 +5,7 @@
   - **Target**: integrations/zx5syx8
 
 - **Route Key**: GET /users/{urn}/profile
-  - **Target**: integrations/6ujxw3l
+  - **Target**: integrations/aqgrjao
 
 - **Route Key**: GET /clubs/{clubID}
   - **Target**: integrations/zx5syx8
@@ -14,6 +14,9 @@
   - **Target**: integrations/fwemuws
 
 - **Route Key**: POST /rides/{rideId}/unregister
+  - **Target**: integrations/fwemuws
+
+- **Route Key**: DELETE /rides/{rideId}/check-in/{controlNumber}
   - **Target**: integrations/fwemuws
 
 - **Route Key**: GET /rides/{rideId}
@@ -47,6 +50,9 @@
   - **Target**: integrations/zx5syx8
 
 - **Route Key**: POST /rides/{rideId}/register
+  - **Target**: integrations/fwemuws
+
+- **Route Key**: GET /rides/{rideId}/all-checkins
   - **Target**: integrations/fwemuws
 
 - **Route Key**: GET /rides/{rideId}/check-in

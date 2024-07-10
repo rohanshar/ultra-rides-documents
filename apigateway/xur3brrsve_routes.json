@@ -13,7 +13,7 @@
             "AuthorizationType": "NONE",
             "RouteId": "5legz06",
             "RouteKey": "GET /users/{urn}/profile",
-            "Target": "integrations/6ujxw3l"
+            "Target": "integrations/aqgrjao"
         },
         {
             "ApiKeyRequired": false,
@@ -37,6 +37,14 @@
             "AuthorizerId": "7hy7at",
             "RouteId": "eyzyt29",
             "RouteKey": "POST /rides/{rideId}/unregister",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "g8a9905",
+            "RouteKey": "DELETE /rides/{rideId}/check-in/{controlNumber}",
             "Target": "integrations/fwemuws"
         },
         {
@@ -121,6 +129,14 @@
             "AuthorizerId": "7hy7at",
             "RouteId": "y3etgir",
             "RouteKey": "POST /rides/{rideId}/register",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "y5ticxk",
+            "RouteKey": "GET /rides/{rideId}/all-checkins",
             "Target": "integrations/fwemuws"
         },
         {
