@@ -1,0 +1,28 @@
+{
+    "Items": [
+        {
+            "ClubID": {
+                "S": "f7cb8d97-571e-4a5d-968f-62a4878784fd"
+            },
+            "description": {
+                "S": "A non-profitable Club made for all athletes, who wanna get trained or want to help new athletes by sharing best practices from their experience.\n"
+            },
+            "name": {
+                "S": "CCC"
+            },
+            "OwnerUserId": {
+                "S": "9123cd4a-a0c1-70d5-6c60-c445232585f5"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "ClubID": {
+            "S": "f7cb8d97-571e-4a5d-968f-62a4878784fd"
+        },
+        "OwnerUserId": {
+            "S": "9123cd4a-a0c1-70d5-6c60-c445232585f5"
+        }
+    }
+}

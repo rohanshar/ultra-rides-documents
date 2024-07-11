@@ -29,6 +29,14 @@ for TABLE_NAME in $TABLE_NAMES; do
   aws dynamodb describe-table --region $REGION --table-name $TABLE_NAME --output json > $SCHEMA_FILE
   
   echo "Schema for table $TABLE_NAME saved to $SCHEMA_FILE"
+
+  # Output file for a single item example
+  ITEM_FILE="$DIRECTORY/${TABLE_NAME}_item.json"
+  
+  # Get a single item from the table and save to a file
+  aws dynamodb scan --region $REGION --table-name $TABLE_NAME --limit 1 --output json > $ITEM_FILE
+  
+  echo "Example item for table $TABLE_NAME saved to $ITEM_FILE"
 done
 
-echo "Schema generation completed."
+echo "Schema and item example generation completed."

@@ -1,0 +1,43 @@
+{
+    "Items": [
+        {
+            "Timestamp": {
+                "S": "2024-07-10T01:49:56.217Z"
+            },
+            "Longitude": {
+                "N": "77.3590405"
+            },
+            "ImageUrl": {
+                "S": "https://ultrarides-images.s3.amazonaws.com/check-ins/6a57bedf-7cb3-4b17-9929-b7831f916da0-1-81432daa-30f1-70cf-5976-85ef42043824.jpg"
+            },
+            "Latitude": {
+                "N": "28.6859031"
+            },
+            "ControlPointName": {
+                "S": "Start"
+            },
+            "RiderID": {
+                "S": "81432daa-30f1-70cf-5976-85ef42043824"
+            },
+            "RideID": {
+                "S": "6a57bedf-7cb3-4b17-9929-b7831f916da0"
+            },
+            "RiderID#ControlPointNumber": {
+                "S": "81432daa-30f1-70cf-5976-85ef42043824#1"
+            },
+            "ControlPointNumber": {
+                "N": "1"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "RideID": {
+            "S": "6a57bedf-7cb3-4b17-9929-b7831f916da0"
+        },
+        "RiderID#ControlPointNumber": {
+            "S": "81432daa-30f1-70cf-5976-85ef42043824#1"
+        }
+    }
+}

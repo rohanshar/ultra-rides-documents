@@ -1,0 +1,19 @@
+{
+    "Items": [
+        {
+            "id": {
+                "S": "userIdCounter"
+            },
+            "counter": {
+                "N": "187"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "id": {
+            "S": "userIdCounter"
+        }
+    }
+}

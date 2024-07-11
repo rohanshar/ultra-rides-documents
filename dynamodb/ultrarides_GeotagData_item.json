@@ -1,0 +1,43 @@
+{
+    "Items": [
+        {
+            "rideId": {
+                "S": "ride456"
+            },
+            "altitude": {
+                "N": "30.5"
+            },
+            "rideId#timestamp": {
+                "S": "ride456#2024-07-03T12:34:56Z"
+            },
+            "userId": {
+                "S": "user123"
+            },
+            "timestamp": {
+                "S": "2024-07-03T12:34:56Z"
+            },
+            "longitude": {
+                "N": "-122.4194"
+            },
+            "status": {
+                "S": "received"
+            },
+            "latitude": {
+                "N": "37.7749"
+            },
+            "retryCount": {
+                "N": "0"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "rideId#timestamp": {
+            "S": "ride456#2024-07-03T12:34:56Z"
+        },
+        "userId": {
+            "S": "user123"
+        }
+    }
+}

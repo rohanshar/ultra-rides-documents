@@ -1,0 +1,47 @@
+{
+    "Items": [
+        {
+            "URN": {
+                "S": "165"
+            },
+            "JoinDate": {
+                "S": "2024-07-09T09:07:34.510Z"
+            },
+            "RiderID": {
+                "S": "a1232d1a-2031-70fd-8576-2cda81b94c8e"
+            },
+            "waiver": {
+                "M": {
+                    "rideId": {
+                        "S": "ac182f48-f9cc-440f-8e11-76ef2ab3b925"
+                    },
+                    "updatedAt": {
+                        "S": "2024-07-09T10:03:38.515Z"
+                    }
+                }
+            },
+            "Status": {
+                "S": "Joined"
+            },
+            "RideID": {
+                "S": "ac182f48-f9cc-440f-8e11-76ef2ab3b925"
+            },
+            "Email": {
+                "S": "monica1331@yahoo.com"
+            },
+            "Name": {
+                "S": "Monica"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "RiderID": {
+            "S": "a1232d1a-2031-70fd-8576-2cda81b94c8e"
+        },
+        "RideID": {
+            "S": "ac182f48-f9cc-440f-8e11-76ef2ab3b925"
+        }
+    }
+}

@@ -37,8 +37,8 @@
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
         },
-        "TableSizeBytes": 3671,
-        "ItemCount": 1,
+        "TableSizeBytes": 13468,
+        "ItemCount": 3,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_rides",
         "TableId": "a243042c-a5fe-440e-850c-f34d0b28e2ed",
         "GlobalSecondaryIndexes": [
@@ -63,8 +63,8 @@
                     "ReadCapacityUnits": 1,
                     "WriteCapacityUnits": 1
                 },
-                "IndexSizeBytes": 3671,
-                "ItemCount": 1,
+                "IndexSizeBytes": 12311,
+                "ItemCount": 2,
                 "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_rides/index/StartDateTimeIndex"
             },
             {
@@ -84,8 +84,8 @@
                     "ReadCapacityUnits": 1,
                     "WriteCapacityUnits": 1
                 },
-                "IndexSizeBytes": 3671,
-                "ItemCount": 1,
+                "IndexSizeBytes": 13468,
+                "ItemCount": 3,
                 "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_rides/index/RideID-index"
             }
         ],

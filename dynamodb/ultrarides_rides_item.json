@@ -1,0 +1,85 @@
+{
+    "Items": [
+        {
+            "distance": {
+                "N": "200"
+            },
+            "OwnerUserId": {
+                "S": "81432daa-30f1-70cf-5976-85ef42043824"
+            },
+            "startPoint": {
+                "S": "SDA"
+            },
+            "isTimeControlled": {
+                "BOOL": true
+            },
+            "ClubName": {
+                "S": "Cunning Cycling Club"
+            },
+            "route": {
+                "S": "https://ridewithgps.com/routes/34864381"
+            },
+            "registrationClosingDateTime": {
+                "S": "2024-07-13T08:21"
+            },
+            "createdAt": {
+                "S": "2024-07-09T02:53:02.214Z"
+            },
+            "timeControlType": {
+                "S": "BRM"
+            },
+            "responsibleEmail": {
+                "S": "s4sanju@yahoo.com"
+            },
+            "name": {
+                "S": "Test"
+            },
+            "responsibleName": {
+                "S": "Sanjeev Sharm"
+            },
+            "startDateTime": {
+                "S": "2024-07-16T08:21"
+            },
+            "whatsappGroupUrl": {
+                "S": ""
+            },
+            "ClubID": {
+                "S": "d858255d-90d2-4862-b6fc-866cc1498e98"
+            },
+            "controlPoints": {
+                "S": "[{\"distance\":0,\"closeTime\":\"2024-07-16T08:21\",\"totalTime\":\"0:00\",\"description\":\"Start\",\"gpsCoordinates\":\"12.3456, -123.4567\"},{\"distance\":\"100\",\"closeTime\":\"2024-07-16T15:01\",\"totalTime\":\"6:40\",\"description\":\"in progress\",\"gpsCoordinates\":\"12.3456, -123.4567\"},{\"distance\":\"150\",\"openTime\":\"\",\"closeTime\":\"2024-07-16T18:21\",\"description\":\"getting there \",\"gpsCoordinates\":\"12.3456, -123.4567\",\"totalTime\":\"10:00\"},{\"distance\":\"200\",\"closeTime\":\"2024-07-16T21:41\",\"totalTime\":\"13:20\",\"description\":\"End\",\"gpsCoordinates\":\"12.3456, -123.4567\"}]"
+            },
+            "rulesAndRegulations": {
+                "S": "do well"
+            },
+            "updatedAt": {
+                "S": "2024-07-09T12:31:13.808Z"
+            },
+            "routeDetails": {
+                "S": "within rules "
+            },
+            "timezone": {
+                "S": "IST"
+            },
+            "details": {
+                "S": "*hello hello*"
+            },
+            "responsiblePhone": {
+                "S": "‭+9181301 55555‬"
+            },
+            "RideID": {
+                "S": "6a57bedf-7cb3-4b17-9929-b7831f916da0"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "ClubID": {
+            "S": "d858255d-90d2-4862-b6fc-866cc1498e98"
+        },
+        "RideID": {
+            "S": "6a57bedf-7cb3-4b17-9929-b7831f916da0"
+        }
+    }
+}
