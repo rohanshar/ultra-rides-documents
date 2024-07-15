@@ -2,10 +2,17 @@
     "Items": [
         {
             "ApiKeyRequired": false,
-            "AuthorizationType": "JWT",
-            "AuthorizerId": "7hy7at",
+            "AuthorizationType": "NONE",
             "RouteId": "09xm00i",
             "RouteKey": "GET /clubs",
+            "Target": "integrations/zx5syx8"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "3e4vl88",
+            "RouteKey": "GET /clubs/myclub",
             "Target": "integrations/zx5syx8"
         },
         {
@@ -17,8 +24,7 @@
         },
         {
             "ApiKeyRequired": false,
-            "AuthorizationType": "JWT",
-            "AuthorizerId": "7hy7at",
+            "AuthorizationType": "NONE",
             "RouteId": "cuzqvh3",
             "RouteKey": "GET /clubs/{clubID}",
             "Target": "integrations/zx5syx8"
@@ -82,6 +88,14 @@
             "ApiKeyRequired": false,
             "AuthorizationType": "JWT",
             "AuthorizerId": "7hy7at",
+            "RouteId": "kvp7vg7",
+            "RouteKey": "POST /rides/{rideId}/manual-check-in",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
             "RouteId": "lfqgn1t",
             "RouteKey": "PUT /rides/{rideId}",
             "Target": "integrations/fwemuws"
@@ -105,6 +119,14 @@
             "AuthorizerId": "7hy7at",
             "RouteId": "p3law6u",
             "RouteKey": "PATCH /rides/{rideId}",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "st45gv5",
+            "RouteKey": "POST /riders/{riderId}/rides/{rideId}/status",
             "Target": "integrations/fwemuws"
         },
         {

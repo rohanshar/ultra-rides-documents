@@ -4,6 +4,9 @@
 - **Route Key**: GET /clubs
   - **Target**: integrations/zx5syx8
 
+- **Route Key**: GET /clubs/myclub
+  - **Target**: integrations/zx5syx8
+
 - **Route Key**: GET /users/{urn}/profile
   - **Target**: integrations/aqgrjao
 
@@ -31,6 +34,9 @@
 - **Route Key**: GET /riders/rides
   - **Target**: integrations/fwemuws
 
+- **Route Key**: POST /rides/{rideId}/manual-check-in
+  - **Target**: integrations/fwemuws
+
 - **Route Key**: PUT /rides/{rideId}
   - **Target**: integrations/fwemuws
 
@@ -41,6 +47,9 @@
   - **Target**: integrations/fwemuws
 
 - **Route Key**: PATCH /rides/{rideId}
+  - **Target**: integrations/fwemuws
+
+- **Route Key**: POST /riders/{riderId}/rides/{rideId}/status
   - **Target**: integrations/fwemuws
 
 - **Route Key**: POST /clubs
