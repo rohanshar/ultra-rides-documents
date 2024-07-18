@@ -39,6 +39,13 @@
         },
         {
             "ApiKeyRequired": false,
+            "AuthorizationType": "NONE",
+            "RouteId": "dnr8b6v",
+            "RouteKey": "GET /clubs/{clubID}/rides",
+            "Target": "integrations/zx5syx8"
+        },
+        {
+            "ApiKeyRequired": false,
             "AuthorizationType": "JWT",
             "AuthorizerId": "7hy7at",
             "RouteId": "eyzyt29",
@@ -128,6 +135,14 @@
             "RouteId": "st45gv5",
             "RouteKey": "POST /riders/{riderId}/rides/{rideId}/status",
             "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "t0vecj8",
+            "RouteKey": "PATCH /clubs/myclub",
+            "Target": "integrations/zx5syx8"
         },
         {
             "ApiKeyRequired": false,
