@@ -2,36 +2,36 @@
     "Table": {
         "AttributeDefinitions": [
             {
-                "AttributeName": "rideId#timestamp",
+                "AttributeName": "clientTimestamp",
                 "AttributeType": "S"
             },
             {
-                "AttributeName": "userId",
+                "AttributeName": "rideId_userId",
                 "AttributeType": "S"
             }
         ],
-        "TableName": "ultrarides_GeotagData",
+        "TableName": "ultrarides_Geotag",
         "KeySchema": [
             {
-                "AttributeName": "userId",
+                "AttributeName": "rideId_userId",
                 "KeyType": "HASH"
             },
             {
-                "AttributeName": "rideId#timestamp",
+                "AttributeName": "clientTimestamp",
                 "KeyType": "RANGE"
             }
         ],
         "TableStatus": "ACTIVE",
-        "CreationDateTime": "2024-07-03T23:21:57.545000+05:30",
+        "CreationDateTime": "2024-08-06T21:31:02.932000+05:30",
         "ProvisionedThroughput": {
             "NumberOfDecreasesToday": 0,
-            "ReadCapacityUnits": 1,
+            "ReadCapacityUnits": 5,
             "WriteCapacityUnits": 1
         },
-        "TableSizeBytes": 162,
-        "ItemCount": 1,
-        "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_GeotagData",
-        "TableId": "579f654f-b5af-4e47-839f-83581eb41311",
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_Geotag",
+        "TableId": "ac42329f-bdba-4402-855e-fbc074f6c58f",
         "DeletionProtectionEnabled": false
     }
 }

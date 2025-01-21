@@ -1,0 +1,43 @@
+{
+    "Items": [
+        {
+            "failRate": {
+                "N": "0"
+            },
+            "failedCount": {
+                "N": "0"
+            },
+            "line_position": {
+                "S": "LINE1"
+            },
+            "stage_number": {
+                "S": "STAGE1"
+            },
+            "lotSize": {
+                "N": "1"
+            },
+            "status": {
+                "S": "PASS"
+            },
+            "timestamp": {
+                "S": "2025-01-07T05:27:21.075Z"
+            },
+            "operator": {
+                "S": "system"
+            },
+            "test_id": {
+                "S": "bf0a1e57-c7b3-4eee-8016-c85a1a877a1f"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "test_id": {
+            "S": "bf0a1e57-c7b3-4eee-8016-c85a1a877a1f"
+        },
+        "timestamp": {
+            "S": "2025-01-07T05:27:21.075Z"
+        }
+    }
+}

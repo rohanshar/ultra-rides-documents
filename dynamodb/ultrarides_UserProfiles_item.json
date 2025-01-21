@@ -2,7 +2,7 @@
     "Items": [
         {
             "URN": {
-                "S": "99"
+                "S": "228"
             },
             "Bio": {
                 "S": ""
@@ -17,10 +17,10 @@
                 "S": ""
             },
             "sub": {
-                "S": "c1d32dca-a011-701c-3a0a-efdb36a41b96"
+                "S": "31e3cdea-f0b1-7046-60dd-80f0d833bfb7"
             },
             "UserName": {
-                "S": "trexpressthakur@gmail.com"
+                "S": "anujagg@outlook.com"
             }
         }
     ],
@@ -28,7 +28,7 @@
     "ScannedCount": 1,
     "LastEvaluatedKey": {
         "URN": {
-            "S": "99"
+            "S": "228"
         }
     }
 }

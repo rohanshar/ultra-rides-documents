@@ -1,10 +1,13 @@
 {
     "TableNames": [
-        "ultrarides_GeotagData",
+        "indotech_production_test_results",
+        "ultrarides_Geotag",
         "ultrarides_RiderRides",
         "ultrarides_RiderRidesControls",
         "ultrarides_UserProfiles",
         "ultrarides_clubs",
+        "ultrarides_events",
+        "ultrarides_orders",
         "ultrarides_rides",
         "ultrarides_userIds"
     ]

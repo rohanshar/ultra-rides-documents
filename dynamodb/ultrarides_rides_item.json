@@ -2,73 +2,96 @@
     "Items": [
         {
             "distance": {
-                "N": "200"
-            },
-            "OwnerUserId": {
-                "S": "81432daa-30f1-70cf-5976-85ef42043824"
+                "N": "100"
             },
             "startPoint": {
-                "S": "SDA"
+                "S": "s"
             },
             "isTimeControlled": {
-                "BOOL": true
+                "BOOL": false
             },
             "ClubName": {
-                "S": "Cunning Cycling Club"
+                "S": "Test"
             },
             "route": {
-                "S": "https://ridewithgps.com/routes/34864381"
+                "S": "https://ridewithgps.com/routes/4780315"
             },
             "registrationClosingDateTime": {
-                "S": "2024-07-13T08:21"
+                "S": "2024-10-27T12:02"
             },
-            "createdAt": {
-                "S": "2024-07-09T02:53:02.214Z"
+            "club": {
+                "M": {
+                    "razorpayId": {
+                        "S": "acc_Onc3XVuS93qtHF"
+                    }
+                }
             },
             "timeControlType": {
                 "S": "BRM"
             },
-            "responsibleEmail": {
-                "S": "s4sanju@yahoo.com"
-            },
             "name": {
-                "S": "Test"
+                "S": "rn"
             },
             "responsibleName": {
-                "S": "Sanjeev Sharm"
-            },
-            "startDateTime": {
-                "S": "2024-07-16T08:21"
-            },
-            "whatsappGroupUrl": {
-                "S": ""
+                "S": "n"
             },
             "ClubID": {
-                "S": "d858255d-90d2-4862-b6fc-866cc1498e98"
+                "S": "93dc3627-a564-4599-9de0-f4b116a980fb"
             },
             "controlPoints": {
-                "S": "[{\"distance\":0,\"closeTime\":\"2024-07-16T08:21\",\"totalTime\":\"0:00\",\"description\":\"Start\",\"gpsCoordinates\":\"12.3456, -123.4567\"},{\"distance\":\"100\",\"closeTime\":\"2024-07-16T15:01\",\"totalTime\":\"6:40\",\"description\":\"in progress\",\"gpsCoordinates\":\"12.3456, -123.4567\"},{\"distance\":\"150\",\"openTime\":\"\",\"closeTime\":\"2024-07-16T18:21\",\"description\":\"getting there \",\"gpsCoordinates\":\"12.3456, -123.4567\",\"totalTime\":\"10:00\"},{\"distance\":\"200\",\"closeTime\":\"2024-07-16T21:41\",\"totalTime\":\"13:20\",\"description\":\"End\",\"gpsCoordinates\":\"12.3456, -123.4567\"}]"
+                "S": "[]"
+            },
+            "payment": {
+                "M": {
+                    "amount": {
+                        "N": "3"
+                    },
+                    "currency": {
+                        "S": "INR"
+                    }
+                }
+            },
+            "details": {
+                "S": "d"
+            },
+            "responsiblePhone": {
+                "S": "d"
+            },
+            "OwnerUserId": {
+                "S": "b1e37dda-a0d1-7013-7975-6a70864c9f3f"
+            },
+            "ClubLogo": {
+                "S": "https://ultrarides-images.s3.amazonaws.com/clubs/93dc3627-a564-4599-9de0-f4b116a980fb.jpg?timestamp=1724499939131"
+            },
+            "createdAt": {
+                "S": "2024-09-28T04:33:33.361Z"
+            },
+            "responsibleEmail": {
+                "S": "3@3"
+            },
+            "rideCategory": {
+                "S": "private"
+            },
+            "startDateTime": {
+                "S": "2024-08-26T12:02"
+            },
+            "whatsappGroupUrl": {
+                "S": "https://chat.whatsapp.com/example"
             },
             "rulesAndRegulations": {
-                "S": "do well"
+                "S": "rr"
             },
             "updatedAt": {
-                "S": "2024-07-09T12:31:13.808Z"
+                "S": "2024-10-24T10:57:44.685Z"
             },
             "routeDetails": {
-                "S": "within rules "
+                "S": "<p><strong>This is great </strong></p>"
             },
             "timezone": {
                 "S": "IST"
             },
-            "details": {
-                "S": "*hello hello*"
-            },
-            "responsiblePhone": {
-                "S": "‭+9181301 55555‬"
-            },
             "RideID": {
-                "S": "6a57bedf-7cb3-4b17-9929-b7831f916da0"
+                "S": "9caecc21-3165-4b1f-876d-25f65c4cef4f"
             }
         }
     ],
@@ -76,10 +99,10 @@
     "ScannedCount": 1,
     "LastEvaluatedKey": {
         "ClubID": {
-            "S": "d858255d-90d2-4862-b6fc-866cc1498e98"
+            "S": "93dc3627-a564-4599-9de0-f4b116a980fb"
         },
         "RideID": {
-            "S": "6a57bedf-7cb3-4b17-9929-b7831f916da0"
+            "S": "9caecc21-3165-4b1f-876d-25f65c4cef4f"
         }
     }
 }

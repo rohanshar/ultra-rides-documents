@@ -2,16 +2,32 @@
     "Items": [
         {
             "ClubID": {
-                "S": "f7cb8d97-571e-4a5d-968f-62a4878784fd"
+                "S": "05dcac27-c196-4ddb-8c80-7b96dc1b0ccf"
             },
-            "description": {
-                "S": "A non-profitable Club made for all athletes, who wanna get trained or want to help new athletes by sharing best practices from their experience.\n"
-            },
-            "name": {
-                "S": "CCC"
+            "supporters": {
+                "L": []
             },
             "OwnerUserId": {
-                "S": "9123cd4a-a0c1-70d5-6c60-c445232585f5"
+                "S": "3193fdfa-e0e1-709b-b873-17918640a113"
+            },
+            "coreTeam": {
+                "L": [
+                    {
+                        "S": "485"
+                    },
+                    {
+                        "S": "748"
+                    }
+                ]
+            },
+            "description": {
+                "S": "Lakshya Randonneurs is a club affiliated to Audax Club Parisien and under the aegis of Audax India Randonneur, we conduct BRMs in Delhi NCR.  \n\nWe welcome all riders who want to push themselves and explore the world of Randonneuring.\n\nClick the link to check the calendar for the year 2023-24 : https://www.audaxindia.in/lakshya-randonneurs-new-delhi-c-139\n\nContact for more information and registration at 9999567560\n\n\n"
+            },
+            "logo": {
+                "S": "https://ultrarides-images.s3.amazonaws.com/clubs/05dcac27-c196-4ddb-8c80-7b96dc1b0ccf.jpg?timestamp=1725863785711"
+            },
+            "name": {
+                "S": "Lakshya Randonneurs"
             }
         }
     ],
@@ -19,10 +35,10 @@
     "ScannedCount": 1,
     "LastEvaluatedKey": {
         "ClubID": {
-            "S": "f7cb8d97-571e-4a5d-968f-62a4878784fd"
+            "S": "05dcac27-c196-4ddb-8c80-7b96dc1b0ccf"
         },
         "OwnerUserId": {
-            "S": "9123cd4a-a0c1-70d5-6c60-c445232585f5"
+            "S": "3193fdfa-e0e1-709b-b873-17918640a113"
         }
     }
 }

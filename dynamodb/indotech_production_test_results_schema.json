@@ -1,0 +1,72 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "line_position",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "test_id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "timestamp",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "indotech_production_test_results",
+        "KeySchema": [
+            {
+                "AttributeName": "test_id",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "timestamp",
+                "KeyType": "RANGE"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2024-12-17T14:56:51.209000+05:30",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 0,
+            "WriteCapacityUnits": 0
+        },
+        "TableSizeBytes": 2503906,
+        "ItemCount": 15017,
+        "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/indotech_production_test_results",
+        "TableId": "b30c1310-d8a2-4eb0-bf42-be691e1a1302",
+        "BillingModeSummary": {
+            "BillingMode": "PAY_PER_REQUEST",
+            "LastUpdateToPayPerRequestDateTime": "2024-12-17T14:56:51.209000+05:30"
+        },
+        "GlobalSecondaryIndexes": [
+            {
+                "IndexName": "LinePosition-TimeBasedAccess-Index",
+                "KeySchema": [
+                    {
+                        "AttributeName": "line_position",
+                        "KeyType": "HASH"
+                    },
+                    {
+                        "AttributeName": "timestamp",
+                        "KeyType": "RANGE"
+                    }
+                ],
+                "Projection": {
+                    "ProjectionType": "ALL"
+                },
+                "IndexStatus": "ACTIVE",
+                "ProvisionedThroughput": {
+                    "NumberOfDecreasesToday": 0,
+                    "ReadCapacityUnits": 0,
+                    "WriteCapacityUnits": 0
+                },
+                "IndexSizeBytes": 2501357,
+                "ItemCount": 15006,
+                "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/indotech_production_test_results/index/LinePosition-TimeBasedAccess-Index"
+            }
+        ],
+        "DeletionProtectionEnabled": false
+    }
+}

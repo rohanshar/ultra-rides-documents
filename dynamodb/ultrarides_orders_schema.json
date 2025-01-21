@@ -1,0 +1,30 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "OrderID",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "ultrarides_orders",
+        "KeySchema": [
+            {
+                "AttributeName": "OrderID",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2024-08-21T22:19:27.852000+05:30",
+        "ProvisionedThroughput": {
+            "LastDecreaseDateTime": "2024-08-21T22:20:25.841000+05:30",
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        },
+        "TableSizeBytes": 341324,
+        "ItemCount": 1642,
+        "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_orders",
+        "TableId": "99e5aa6a-8805-4179-bae7-47e3d1ad4188",
+        "DeletionProtectionEnabled": false
+    }
+}
