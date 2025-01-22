@@ -20,8 +20,8 @@
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
         },
-        "TableSizeBytes": 119008,
-        "ItemCount": 1026,
+        "TableSizeBytes": 119122,
+        "ItemCount": 1027,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_UserProfiles",
         "TableId": "91d93009-ffbe-4cfc-9a55-2c5f41430993",
         "DeletionProtectionEnabled": false

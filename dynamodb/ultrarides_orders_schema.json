@@ -21,8 +21,8 @@
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
         },
-        "TableSizeBytes": 341324,
-        "ItemCount": 1642,
+        "TableSizeBytes": 344362,
+        "ItemCount": 1655,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_orders",
         "TableId": "99e5aa6a-8805-4179-bae7-47e3d1ad4188",
         "DeletionProtectionEnabled": false

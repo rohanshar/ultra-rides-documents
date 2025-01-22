@@ -36,8 +36,8 @@
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
         },
-        "TableSizeBytes": 1865308,
-        "ItemCount": 4635,
+        "TableSizeBytes": 1865708,
+        "ItemCount": 4636,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_RiderRidesControls",
         "TableId": "00dc4f3e-c5c3-49c1-aa83-ee9761f7968d",
         "GlobalSecondaryIndexes": [

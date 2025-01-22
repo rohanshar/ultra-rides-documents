@@ -32,8 +32,8 @@
             "ReadCapacityUnits": 0,
             "WriteCapacityUnits": 0
         },
-        "TableSizeBytes": 2503906,
-        "ItemCount": 15017,
+        "TableSizeBytes": 2684060,
+        "ItemCount": 16102,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/indotech_production_test_results",
         "TableId": "b30c1310-d8a2-4eb0-bf42-be691e1a1302",
         "BillingModeSummary": {
@@ -62,8 +62,8 @@
                     "ReadCapacityUnits": 0,
                     "WriteCapacityUnits": 0
                 },
-                "IndexSizeBytes": 2501357,
-                "ItemCount": 15006,
+                "IndexSizeBytes": 2681511,
+                "ItemCount": 16091,
                 "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/indotech_production_test_results/index/LinePosition-TimeBasedAccess-Index"
             }
         ],

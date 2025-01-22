@@ -1,0 +1,25 @@
+{
+    "Items": [
+        {
+            "UserID": {
+                "S": "81432daa-30f1-70cf-5976-85ef42043824"
+            },
+            "EventID": {
+                "S": "eae0a3b2-1bbd-4b13-a964-696df2a840e8"
+            },
+            "status": {
+                "S": "GOING"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "UserID": {
+            "S": "81432daa-30f1-70cf-5976-85ef42043824"
+        },
+        "EventID": {
+            "S": "eae0a3b2-1bbd-4b13-a964-696df2a840e8"
+        }
+    }
+}

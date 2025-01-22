@@ -6,6 +6,7 @@
         "ultrarides_RiderRidesControls",
         "ultrarides_UserProfiles",
         "ultrarides_clubs",
+        "ultrarides_event_user_status",
         "ultrarides_events",
         "ultrarides_orders",
         "ultrarides_rides",

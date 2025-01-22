@@ -2,55 +2,49 @@
     "Items": [
         {
             "website": {
-                "S": "https://example.com"
+                "S": "https://www.enduroco.in"
+            },
+            "standardDistances": {
+                "S": "[\"21K (Half Marathon)\"]"
             },
             "location": {
-                "S": "Marine Drive"
-            },
-            "distance": {
-                "N": "10"
+                "S": "test"
             },
             "OwnerUserId": {
-                "S": "12345678-1234-1234-1234-123456789012"
+                "S": "9123cd4a-a0c1-70d5-6c60-c445232585f5"
             },
-            "triathlonDistances": {
+            "customDistances": {
                 "S": "[]"
             },
             "createdAt": {
-                "S": "2025-01-21T18:46:46.217Z"
+                "S": "2025-01-22T10:03:19.473Z"
             },
             "country": {
                 "S": "India"
             },
             "state": {
-                "S": "Maharashtra"
+                "S": "Himachal Pradesh"
             },
             "city": {
-                "S": "Mumbai"
+                "S": "Shimla"
             },
             "date": {
-                "S": "2024-09-01"
+                "S": "2025-01-23"
             },
             "updatedAt": {
-                "S": "2025-01-21T18:46:46.217Z"
-            },
-            "cyclingType": {
-                "S": ""
+                "S": "2025-01-22T10:03:19.473Z"
             },
             "eventType": {
                 "S": "Running"
             },
             "EventID": {
-                "S": "70cb2b94-cb1e-4a5d-98a2-f9595c586589"
+                "S": "69400b0b-9b1e-481f-bf04-b5e019f3926d"
             },
             "description": {
-                "S": "A 10k test run."
-            },
-            "runningDistances": {
-                "S": "[5,10,21]"
+                "S": "test"
             },
             "title": {
-                "S": "Test Marathon"
+                "S": "test race"
             }
         }
     ],
@@ -58,7 +52,7 @@
     "ScannedCount": 1,
     "LastEvaluatedKey": {
         "EventID": {
-            "S": "70cb2b94-cb1e-4a5d-98a2-f9595c586589"
+            "S": "69400b0b-9b1e-481f-bf04-b5e019f3926d"
         }
     }
 }
