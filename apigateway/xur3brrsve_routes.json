@@ -11,6 +11,45 @@
             "ApiKeyRequired": false,
             "AuthorizationType": "JWT",
             "AuthorizerId": "7hy7at",
+            "RouteId": "0zkmzd5",
+            "RouteKey": "POST /rides/{rideId}/admin-register/{urn}",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "1vcsndt",
+            "RouteKey": "GET /events/user",
+            "Target": "integrations/d4bpe62"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "1xzz8kp",
+            "RouteKey": "DELETE /events/{eventID}",
+            "Target": "integrations/d4bpe62"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "NONE",
+            "RouteId": "2bixtgs",
+            "RouteKey": "GET /rides/certificates/{certificateToken}",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "309edcu",
+            "RouteKey": "POST /payments/createOrder",
+            "Target": "integrations/z6lsyyp"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
             "RouteId": "3e4vl88",
             "RouteKey": "GET /clubs/myclub",
             "Target": "integrations/zx5syx8"
@@ -21,6 +60,30 @@
             "RouteId": "5legz06",
             "RouteKey": "GET /users/{urn}/profile",
             "Target": "integrations/aqgrjao"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "7k6aonf",
+            "RouteKey": "GET /users/cognito-attributes",
+            "Target": "integrations/aqgrjao"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "86fbmco",
+            "RouteKey": "GET /events/{eventID}",
+            "Target": "integrations/d4bpe62"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "as1nlk2",
+            "RouteKey": "POST /events",
+            "Target": "integrations/d4bpe62"
         },
         {
             "ApiKeyRequired": false,
@@ -43,6 +106,14 @@
             "RouteId": "dnr8b6v",
             "RouteKey": "GET /clubs/{clubID}/rides",
             "Target": "integrations/zx5syx8"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "eosduk1",
+            "RouteKey": "POST /rides/{rideId}/riders/{riderId}/category",
+            "Target": "integrations/fwemuws"
         },
         {
             "ApiKeyRequired": false,
@@ -71,9 +142,41 @@
             "ApiKeyRequired": false,
             "AuthorizationType": "JWT",
             "AuthorizerId": "7hy7at",
+            "RouteId": "hku3r88",
+            "RouteKey": "POST /rides/{rideId}/duplicate",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "ie3pwba",
+            "RouteKey": "PATCH /rides/{rideId}/riders/{riderId}/category",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
             "RouteId": "iw8hdlg",
             "RouteKey": "PATCH /users",
             "Target": "integrations/aqgrjao"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "iwzg4d0",
+            "RouteKey": "DELETE /rides/{rideId}",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "juigi68",
+            "RouteKey": "POST /rides/{rideId}/riders/{riderId}/result",
+            "Target": "integrations/fwemuws"
         },
         {
             "ApiKeyRequired": false,
@@ -103,6 +206,14 @@
             "ApiKeyRequired": false,
             "AuthorizationType": "JWT",
             "AuthorizerId": "7hy7at",
+            "RouteId": "kxtia6f",
+            "RouteKey": "POST /riders/{riderId}/rides/{rideId}/attach-offline-payment",
+            "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
             "RouteId": "lfqgn1t",
             "RouteKey": "PUT /rides/{rideId}",
             "Target": "integrations/fwemuws"
@@ -116,6 +227,13 @@
         {
             "ApiKeyRequired": false,
             "AuthorizationType": "NONE",
+            "RouteId": "n4bc2g6",
+            "RouteKey": "GET /events",
+            "Target": "integrations/d4bpe62"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "NONE",
             "RouteId": "oazkb94",
             "RouteKey": "GET /rides",
             "Target": "integrations/fwemuws"
@@ -124,9 +242,24 @@
             "ApiKeyRequired": false,
             "AuthorizationType": "JWT",
             "AuthorizerId": "7hy7at",
+            "RouteId": "oqottqf",
+            "RouteKey": "GET /generate-chat-token",
+            "Target": "integrations/x77hrl4"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
             "RouteId": "p3law6u",
             "RouteKey": "PATCH /rides/{rideId}",
             "Target": "integrations/fwemuws"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "NONE",
+            "RouteId": "qbsjxc3",
+            "RouteKey": "POST /payments/razorpay-webhook",
+            "Target": "integrations/z6lsyyp"
         },
         {
             "ApiKeyRequired": false,
@@ -143,6 +276,14 @@
             "RouteId": "t0vecj8",
             "RouteKey": "PATCH /clubs/myclub",
             "Target": "integrations/zx5syx8"
+        },
+        {
+            "ApiKeyRequired": false,
+            "AuthorizationType": "JWT",
+            "AuthorizerId": "7hy7at",
+            "RouteId": "tj67czc",
+            "RouteKey": "PUT /events/{eventID}",
+            "Target": "integrations/d4bpe62"
         },
         {
             "ApiKeyRequired": false,

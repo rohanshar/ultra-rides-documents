@@ -1,5 +1,64 @@
 {
-    "Items": [],
-    "Count": 0,
-    "ScannedCount": 0
+    "Items": [
+        {
+            "website": {
+                "S": "https://example.com"
+            },
+            "location": {
+                "S": "Marine Drive"
+            },
+            "distance": {
+                "N": "10"
+            },
+            "OwnerUserId": {
+                "S": "12345678-1234-1234-1234-123456789012"
+            },
+            "triathlonDistances": {
+                "S": "[]"
+            },
+            "createdAt": {
+                "S": "2025-01-21T18:46:46.217Z"
+            },
+            "country": {
+                "S": "India"
+            },
+            "state": {
+                "S": "Maharashtra"
+            },
+            "city": {
+                "S": "Mumbai"
+            },
+            "date": {
+                "S": "2024-09-01"
+            },
+            "updatedAt": {
+                "S": "2025-01-21T18:46:46.217Z"
+            },
+            "cyclingType": {
+                "S": ""
+            },
+            "eventType": {
+                "S": "Running"
+            },
+            "EventID": {
+                "S": "70cb2b94-cb1e-4a5d-98a2-f9595c586589"
+            },
+            "description": {
+                "S": "A 10k test run."
+            },
+            "runningDistances": {
+                "S": "[5,10,21]"
+            },
+            "title": {
+                "S": "Test Marathon"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "EventID": {
+            "S": "70cb2b94-cb1e-4a5d-98a2-f9595c586589"
+        }
+    }
 }

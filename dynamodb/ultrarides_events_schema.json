@@ -24,8 +24,8 @@
             "ReadCapacityUnits": 0,
             "WriteCapacityUnits": 0
         },
-        "TableSizeBytes": 0,
-        "ItemCount": 0,
+        "TableSizeBytes": 380,
+        "ItemCount": 1,
         "TableArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_events",
         "TableId": "0106a643-58ab-441a-9fd1-644b75793f68",
         "BillingModeSummary": {
@@ -50,8 +50,8 @@
                     "ReadCapacityUnits": 0,
                     "WriteCapacityUnits": 0
                 },
-                "IndexSizeBytes": 0,
-                "ItemCount": 0,
+                "IndexSizeBytes": 380,
+                "ItemCount": 1,
                 "IndexArn": "arn:aws:dynamodb:ap-south-1:419003463362:table/ultrarides_events/index/OwnerUserId-index"
             }
         ],
